@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    text-align: center;
+    background-color: #023047;
+    color: white;
+
+   
+}
+.continer{
+    height:650px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.game{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.box{
+    height: 160px;
+    width: 160px;
+    background-color:#ffb703;
+    border: none;
+    border-radius: 5%;
+    color:#219ebc;
+    font-size:100px;
+    padding: 5px;
+    box-shadow:2px 5px 10px rgba(0, 0, 0, 0.5),
+    2px 5px 10px rgba(0, 0, 0, 0.5) ;  
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+h1{
+    font-size: 50px;
+font-family:'Times New Roman', Times, serif;
+}
+.reset{
+    height: 80px;
+    width: 180px;
+    background-color: #219ebc;
+    margin-top: 15px;
+    border-radius: 27px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+   color: black;
+   font-weight: 700;
+   transition: all 0.5s;
+   
+}
+.reset:hover{
+    transform: scale(1.09);
+}
+.reset_glow{
+    box-shadow: 0px 0px 20px #ffffff,
+    50px 5px 30px #219ebc,
+    5px 5px 40px #219ebc;
+}
+.on{
+   display: none;
+}
+.winer{
+    height: 100PX;
+    width: 100%;
+    text-align: center;
+    color:gold;
+    align-items: center;
+justify-content: center;
+font-size: 50px;
+}
+.glow{
+    box-shadow: 0px 0px 20px #ffffff,
+    50px 5px 30px #ffb703,
+    5px 5px 40px #ffb703;
+  
+}
+.box:hover{
+    transform:scale(1.05);
+}
+.win_glow{
+    text-shadow: 0px 0px 20px #ffffff,
+    50px 5px 30px gold,
+    5px 5px 40px gold;
+}
